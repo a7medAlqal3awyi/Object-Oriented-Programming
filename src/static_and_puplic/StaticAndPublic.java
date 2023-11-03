@@ -1,4 +1,4 @@
-package com.company;
+package static_and_puplic;
 
 public class StaticAndPublic {
 

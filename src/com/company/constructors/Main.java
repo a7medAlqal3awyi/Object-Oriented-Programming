@@ -1,4 +1,6 @@
-package com.company;
+package com.company.constructors;
+
+import com.company.constructors.Car;
 
 public class Main {
 

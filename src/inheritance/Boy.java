@@ -1,7 +1,7 @@
 package inheritance;
 
-public class Boy extends  Person{
-    private  boolean isHasMilitaryService ;
+public class Boy extends Person {
+    private boolean isHasMilitaryService;
 
     public boolean isHasMilitaryService() {
         return isHasMilitaryService;
@@ -10,8 +10,9 @@ public class Boy extends  Person{
     public void setHasMilitaryService(boolean hasMilitaryService) {
         isHasMilitaryService = hasMilitaryService;
     }
+
     @Override
-    public  void eat (){
+    public void eat() {
         super.eat();
         System.out.println("as aboy");
     }

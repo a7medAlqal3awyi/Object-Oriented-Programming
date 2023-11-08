@@ -1,4 +1,5 @@
 package inheritance;
+
 //is a relationship
 // boy is a person
 // Girl is a person

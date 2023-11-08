@@ -1,11 +1,11 @@
 package inheritance;
 
 public class Person {
-   private int id ;
-    private String name ;
-    private int age ;
-    private String  grade;
-    private double  gpa;
+    private int id;
+    private String name;
+    private int age;
+    private String grade;
+    private double gpa;
     private double height;
 
     public int getId() {
@@ -55,11 +55,12 @@ public class Person {
     public void setHeight(double height) {
         this.height = height;
     }
-    public  void  eat(){
+
+    public void eat() {
         System.out.println("Iam eating ");
     }
 
-    public String sayHello(){
-        return  "Hello iam person ";
+    public String sayHello() {
+        return "Hello iam person ";
     }
 }

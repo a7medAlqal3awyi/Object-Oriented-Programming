@@ -25,7 +25,6 @@ public class HourlyEmloyee extends  Employee{
     public void setHourPrice(float hourPrice) {
         this.hourPrice = hourPrice;
     }
-
     public float getSalary() {
         return super.getSalary() + (hourPrice*hoursRate);
     }
